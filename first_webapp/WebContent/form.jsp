@@ -6,21 +6,21 @@
         <title>お問い合わせフォーム</title>
     </head>
     <body>
-        <h1>お問い合わせフォーム</h1>>
-        <form method ="POST" action ="first_webapp/InquiryServlet">
-            <label for ="username">氏名</label><br/>
-            <input type ="text" name ="username" id ="username" />
+        <h1>お問い合わせフォーム</h1>
+        <form method="POST" action="/first_webapp/InquiryServlet">
+            <label for="username">氏名</label><br />
+            <input type="text" name="username" id="username" />
             <br /><br />
-            
-            <label for ="username">メールアドレス</label><br />
-            <input type ="text" name ="usermail" id ="username" />
+
+            <label for="usermail">メールアドレス</label><br />
+            <input type="text" name="usermail" id="usermail" />
             <br /><br />
-            
-            <label for ="content">お問い合わせ内容</label><br />
-            <textarea rows ="5" cols ="25" name ="content" id ="content"></textarea>
+
+            <label for="content">お問い合わせ内容</label><br />
+            <textarea rows="5" cols="25" name="content" id="content"></textarea>
             <br /><br />
-            
-            <button type ="submit">送信</button>
+
+            <button type="submit">送信</button>
         </form>
     </body>
 </html>
